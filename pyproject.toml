@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesevt"
+version = "0.1.0"
+description = "Bayesian Extreme Value Theory in Python"
+authors = [
+  {name="Your Name"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scipy"
+]
